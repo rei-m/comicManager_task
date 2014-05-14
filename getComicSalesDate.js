@@ -13,7 +13,9 @@ var Q = require('q'),
 		getSalesInfo = require('getComicSalesDate/getSalesInfo'),
 		saveSalesInfo = require('getComicSalesDate/saveSalesInfo');
 
+// 処理開始
 (function(){
+
 	Q.when(CONST.FUNC_NAME)
 		// 初期処理
 		.then(cmnFunc.initProc)
@@ -30,4 +32,5 @@ var Q = require('q'),
 		.fail(cmnFunc.errorProc)
 		// 終了処理
 		.done(cmnFunc.endProc);
+
 })();

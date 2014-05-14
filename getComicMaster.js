@@ -8,10 +8,10 @@ module.paths.push('./my_modules/node_modules');
 var Q = require('q'),
 		db = require('cmn/cmnDb'),
 		cmnFunc = require('cmn/cmnFunc'),
+		CONST = require('getComicMaster/const'),
 		getComiclist = require('getComicMaster/getComicList'),
 		getComicListFromSales = require('getComicMaster/getComicListFromSales'),
-		saveComicList = require('getComicMaster/saveComicList'),
-		CONST = require('getComicMaster/const');
+		saveComicList = require('getComicMaster/saveComicList');
 
 // 処理開始
 (function(){
