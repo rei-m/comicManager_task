@@ -1,18 +1,23 @@
 {
   "name": "comicManagerTask",
-  "version": "0.0.1",
-  "private": true,
+  "version": "0.0.2",
+  "description": "Batch for 新刊カレンダー app",
   "scripts": {
+    "test": "",
+    "start":""
   },
+  "repository": "https://github.com/rei-m/comicManager_task",
+  "author": "Rei Matsushita",
+  "license": "MIT",
   "dependencies": {
     "commander": "*",
     "cheerio":"*",
-    "deferred":"*",
     "log4js":"*",
     "request":"*",
     "config":"*",
     "mongodb":"*",
     "cheerio-httpcli":"*",
-    "dateformat":"*"
+    "dateformat":"*",
+    "q":"*"
   }
 }
